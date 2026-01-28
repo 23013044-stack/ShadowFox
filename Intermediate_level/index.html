@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chennai Super Kings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <img src="ipl-chennai-super-kings-logo-png_seeklogo-196613.png" class="logo">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#players">Players</a></li>
+            <li><a href="#stats">Stats</a></li>
+            <li><a href="#fan">Fan Zone</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <h1>Chennai Super Kings</h1>
+        <p>Whistle Podu 💛</p>
+        <img src="photo.jpg" class="banner">
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About CSK</h2>
+        <p>
+            Chennai Super Kings is one of the most successful IPL teams,
+            founded in 2008 and led by the legendary MS Dhoni.
+            CSK is known for consistency, leadership, and loyal fans.
+        </p>
+        <img src="31.jpg" class="section-img">
+    </section>
+
+    <!-- Schedule -->
+    <section id="schedule">
+        <h2>Match Schedule</h2>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Opponent</th>
+                <th>Venue</th>
+            </tr>
+            <tr>
+                <td>23 March</td>
+                <td>RCB</td>
+                <td>Chennai</td>
+            </tr>
+            <tr>
+                <td>28 March</td>
+                <td>MI</td>
+                <td>Mumbai</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Players -->
+    <section id="players">
+        <h2>Key Players</h2>
+
+        <div class="player-card">
+            <img src="3126cd2f2a00c8d101713f2cdb8c8094.jpg">
+            <h3>MS Dhoni</h3>
+            <p>Wicketkeeper | Captain</p>
+        </div>
+
+        <div class="player-card">
+            <img src="122226831.jpg">
+            <h3>Ravindra Jadeja</h3>
+            <p>All-Rounder</p>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section id="stats">
+        <h2>Team Statistics</h2>
+        <ul>
+            <li>IPL Titles: 5</li>
+            <li>Final Appearances: 10</li>
+            <li>Win Percentage: 60%+</li>
+        </ul>
+    </section>
+
+    <!-- Fan Zone -->
+    <section id="fan">
+        <h2>Fan Zone</h2>
+        <img src="ma-chidambaram-chennai.jpg" class="section-img">
+
+        <h3>Who is your favorite CSK player?</h3>
+        <button onclick="vote('MS Dhoni')">MS Dhoni</button>
+        <button onclick="vote('Ravindra Jadeja')">Ravindra Jadeja</button>
+
+        <p id="vote-result"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Chennai Super Kings Fan Website | ShadowFox Internship</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
